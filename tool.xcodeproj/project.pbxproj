@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2145F25A192068F500A301E9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2145F259192068F500A301E9 /* main.c */; };
-		2145F25C192068F500A301E9 /* tool.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2145F25B192068F500A301E9 /* tool.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +17,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				2145F25C192068F500A301E9 /* tool.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -27,7 +25,6 @@
 /* Begin PBXFileReference section */
 		2145F256192068F500A301E9 /* tool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tool; sourceTree = BUILT_PRODUCTS_DIR; };
 		2145F259192068F500A301E9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		2145F25B192068F500A301E9 /* tool.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = tool.1; sourceTree = "<group>"; };
 		214618EF195806930066C456 /* 2d_tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 2d_tree.h; sourceTree = "<group>"; };
 		218BE1D919456BA0000CE6E1 /* splay_tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = splay_tree.h; sourceTree = "<group>"; };
 		9B1267901945EA66005D0EBD /* b-tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "b-tree.h"; sourceTree = "<group>"; };
@@ -78,7 +75,6 @@
 				9BDCECDF194326D70089740F /* tree */,
 				9BDCECD3194323A20089740F /* liner_table */,
 				2145F259192068F500A301E9 /* main.c */,
-				2145F25B192068F500A301E9 /* tool.1 */,
 			);
 			path = tool;
 			sourceTree = "<group>";
